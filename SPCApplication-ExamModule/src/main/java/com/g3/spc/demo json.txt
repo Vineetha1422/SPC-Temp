@@ -1,0 +1,50 @@
+{
+    "classId" : [
+        {
+            "classId" : "3C",
+            "grade" : 3,
+            "division" : "C",
+            "classTeacher" : {
+                "teacherId" : 1,
+                "name" : "Chris",
+                "subject" :{
+                    "subjectId" : 201,
+                    "title" : "Math"
+                }
+            },
+            "subjectTeachers" : [
+                {
+                    "teacherId" : 2,
+                    "name" : "Felix",
+                    "subject" :{
+                        "subjectId" : 202,
+                        "title" : "History"
+                    }
+                },
+                {
+                    "teacherId" : 3,
+                    "name" : "Kevin",
+                    "subject" :{
+                         "subjectId" : 203,
+                        "title" : "Physical Science"
+                    }
+                },
+                {
+                    "teacherId" : 4,
+                    "name" : "Mark",
+                    "subject" :{
+                        "subjectId" : 204,
+                        "title" : "Social Studies"
+                    }
+                }
+            ]
+        }
+    ],
+    "dateTimeOfExam" : "2022-03-17T10:30:00",
+    "subject" : {
+        "subjectId" : 205,
+        "title" : "Chemistry"
+    },
+    "examType" : "DESCRIPTIVE",
+    "maxMarks" : 75
+}
